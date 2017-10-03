@@ -9,7 +9,7 @@ public class Break {
         double G = 0, k = 0, n = 0;
         if (in.hasNextDouble()) {
             n = in.nextDouble();
-        } else {
+        } else {    // этот фрагмент надо перенести в конец
             System.out.println("Вы ввели не число!");
         }
         int p = 1;
@@ -19,6 +19,7 @@ public class Break {
             G = G + 1.0 / Math.pow((2.0 * k - 1.0), 2) * p;
             p = -p;
             // Как правильно реализовать 6 пункт б?
+            // мы это еще не проходили
             if (G <= e){
                 System.out.println(G);
                 break;
