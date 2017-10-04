@@ -1,5 +1,3 @@
-package Ex6;
-
 import java.util.Scanner;
 
 public class Catalan {
