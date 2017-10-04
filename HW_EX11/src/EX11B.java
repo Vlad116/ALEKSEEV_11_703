@@ -3,7 +3,7 @@ public class EX11B {
     public static void main(String[] args) {
         System.out.println("Введите число i (i >= 0):");
         Scanner in = new Scanner(System.in);
-        int i,k = 1;
+        int i,k = 0;
         double t;// t - сумма
         if (in.hasNextInt()) {
             i = in.nextInt();

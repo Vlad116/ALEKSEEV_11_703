@@ -20,4 +20,9 @@ public class Catalan {
             System.out.println("Вы ввели не число!");
         }
     }
+<<<<<<< HEAD:EX_6Catalan/src/Catalan.java
 }
+=======
+}
+//так лучше
+>>>>>>> 180a3539a256d1f1572815be87354a7f8202a987:Ex6/src/Ex6/Catalan.java
