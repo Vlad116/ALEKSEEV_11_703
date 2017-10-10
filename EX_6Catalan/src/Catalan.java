@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Catalan {
     public static void main(String[] args) {
         double G = 0;
-        int k = 0, n;
+        int k = 0, n;// k - счетчик, n - input.
         System.out.println("Введите число n:");
         Scanner in = new Scanner(System.in);
         if (in.hasNextInt()) {
