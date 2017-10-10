@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class EX10A {
     public static void main(String[]args){
         System.out.println("Введите числа к(k >= 0) и x: ");
-        int k, x, m = 0,f = 1;
+        int x, k, m = 0, f = 1;
         Scanner in = new Scanner(System.in);
         Scanner sc = new Scanner(System.in);
        if ((in.hasNextInt())&(sc.hasNextInt())){
