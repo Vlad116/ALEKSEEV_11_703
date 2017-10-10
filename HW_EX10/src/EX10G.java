@@ -14,14 +14,12 @@ public class EX10G {
         if (k % 2 == 0){
             while (m < k) {
                 m++;
-                st *= x;
-                S = S + (st / (2.0 * m));
+                S += ((st * x) / (2.0 * m));
             }
         } else {
             while (m < k) {
                 m++;
-                st *= x;
-                S = S + (st / ((2.0 * m) - 1.0));
+                S += ((st * x) / ((2.0 * m) - 1.0));
             }
         }
         System.out.println(S);

@@ -15,9 +15,8 @@ public class EX10B {
                 int    p = -1;
                 while (m < k) {
                     m++;
-                    fct = (2 * m) * (2 * m - 1) * fct;
-                    st *= x * x * x * x;
-                    S = S + ((1.0 * st) / (fct * (4 * m + 1))) * p;
+                    fct *= (2 * m) * (2 * m - 1);
+                    S += ((1.0 * (st * x * x * x * x)) / (fct * (4 * m + 1))) * p;
                     p = -p;
                 }
                 System.out.println(S);

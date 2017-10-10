@@ -13,8 +13,7 @@ public class EX10V {
             int    st = 1;
             while (m < k) {
                 m++;
-                st *= x * x;
-                S = S + ((st * (2.0 * m - 1.0))/ (2.0 * m) );
+                S += (((st * x * x) * (2.0 * m - 1.0))/ (2.0 * m));
             }
             System.out.println(S);
         } else {

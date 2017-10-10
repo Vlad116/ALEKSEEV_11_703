@@ -14,9 +14,7 @@ public class EX10A {
            int    st = 1;
            while (m < k) {
                 m++;
-                f *= m;
-                st *= x * x;
-                S = S + (( 1.0 * st) / (f * (2 * m + 1))) * p;
+                S = S + ( 1.0 * (st * x * x)) / ((f * m) * (2 * m + 1)) * p;
                 p = -p;
             }
             System.out.println(S);

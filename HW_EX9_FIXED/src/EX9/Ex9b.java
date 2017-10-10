@@ -12,9 +12,7 @@ public class Ex9b {
             m = in.nextInt();
             while (k < m){
                 k++;
-                ch = ch * (k - 1.0);
-                zn = (2 * k) * (2 * k - 1) * zn;
-                sum = sum + ((ch * ch) / zn);
+                sum += ((ch * (k - 1.0)) * (ch * (k - 1.0))) / ((2 * k) * (2 * k - 1) * zn);
             }
             System.out.println(sum);
         } else {
