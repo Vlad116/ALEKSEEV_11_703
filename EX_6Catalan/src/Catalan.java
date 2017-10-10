@@ -11,7 +11,7 @@ public class Catalan {
             int p = 1;
             while (k < n) {
                 k++;
-                G += 1.0 / ((2.0 * k - 1.0) * (2.0 * k - 1.0)) * p;
+                G += 1.0 / ((2.0 * k - 1.0) * (2.0 * k - 1.0)) * p;// Можно проще G += 1.0 / ((2* k - 1) * (2 * k - 1)) * p;
                 p = -p;
             }
             System.out.println(G);
