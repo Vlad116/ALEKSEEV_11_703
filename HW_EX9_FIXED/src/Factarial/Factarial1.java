@@ -1,6 +1,6 @@
 package Factarial;
 import java.util.Scanner;
-
+//нахождение фактариала...
 public class Factarial1 {
     /*public static int fac(int x) {
         int fac = 1,k=1; // функция вычисления фактариала
