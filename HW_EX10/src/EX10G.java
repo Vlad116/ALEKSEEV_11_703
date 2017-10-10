@@ -11,10 +11,10 @@ public class EX10G {
         x = sc.nextInt();
         double S = x;
         int st = 1;
-        if (k % 2 == 0){
-            while (m < k) {
+        if (k % 2 == 0){     //k не меняется
+            while (m < k) {  // откуда внутренние циклы?
                 m++;
-                S += ((st * x) / (2.0 * m));
+                S += ((st * x) / (2.0 * m));   // числитель не изменяется
             }
         } else {
             while (m < k) {
