@@ -14,7 +14,7 @@ public class EX11G {
                 k++;
                 sn = sn * Math.sin(k);
                 cs = cs * Math.cos(k);
-                v = sn / cs;
+                v = sn / cs;  //  откуда это выражение?
             }
             System.out.println(v);
         } else {
