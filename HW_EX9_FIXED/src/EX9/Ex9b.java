@@ -12,7 +12,7 @@ public class Ex9b {
             m = in.nextInt();
             while (k < m){
                 k++;
-                sum += ((ch * (k - 1.0)) * (ch * (k - 1.0))) / ((2 * k) * (2 * k - 1) * zn);
+                sum += ((ch * (k - 1.0)) * (ch * (k - 1.0))) / ((2 * k) * (2 * k - 1) * zn);//откуда возьмутся факториалы?
             }
             System.out.println(sum);
         } else {
