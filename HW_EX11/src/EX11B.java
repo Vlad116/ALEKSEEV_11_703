@@ -12,9 +12,9 @@ public class EX11B {
             t = cs / sn;
             while (k < i){
                 k++;
-                cs = cs + Math.cos(k);
-                sn = sn + Math.sin(k);
-                t = cs / sn;
+                cs = cs + Math.cos(k);    // Все это 
+                sn = sn + Math.sin(k);    // не соответствует
+                t = cs / sn;              // условию задачи
             }
             System.out.println(t);
         } else {
