@@ -12,7 +12,7 @@ public class EX12A {
         eps = ep.nextDouble();
         while (Math.abs(t) > eps) {
             S += t;
-            t *= 1.0 * x/n;  //здесь 1.0 не нужно
+            t *= x/n; 
             n++;
         }
         System.out.println(S);

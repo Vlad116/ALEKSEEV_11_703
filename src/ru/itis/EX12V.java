@@ -13,14 +13,14 @@ public class EX12V {
         eps = ep.nextDouble();
         if (in.hasNextDouble() & ep.hasNextDouble() & (Math.abs(x) < 1)) {
             int p = 1;
-            S = x;
-            while (Math.abs(t) > eps) {// переделаю
-               /* n++;
-                t *= 1.0 * x / n;
+            while (Math.abs(t) > eps) {
                 S += t * p;
-                p = -p;*/
+                p = -p;
+                n++;
+                x *= x;
+                t *= x / n;
             }
+            System.out.println(S);
         }
-    System.out.println();
     }
 }
