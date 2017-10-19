@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex9g {
     public static void main(String[]args){
         System.out.println("Введите число m(m >=1):");
-        double sum = 0;//sum - значение суммы , k - счетчик , m - входные данные.
+        double sum = 1;//sum - значение суммы , k - счетчик , m - входные данные.
         int k = 0,m,t = 1;
         Scanner in = new Scanner(System.in);
         if (in.hasNextInt()) {

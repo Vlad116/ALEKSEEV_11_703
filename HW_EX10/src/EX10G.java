@@ -1,30 +1,24 @@
 import java.util.Scanner;
 
 public class EX10G {
-    public static void main(String[]args) {
-    System.out.println("Введите числа к(k >= 1) и x: ");
-    int k, x, m = 1;
-    Scanner in = new Scanner(System.in);
-    Scanner sc = new Scanner(System.in);
-    if ((in.hasNextInt()) & (sc.hasNextInt())) {
+    public static void main(String[] args) {
+        System.out.println("Введите числа к(k >= 1) и x: ");
+        int k, m = 1;
+        Scanner in = new Scanner(System.in);
         k = in.nextInt();
-        x = sc.nextInt();
-        double S = x;
-        int st = 1;
-        if (k % 2 == 0){     //k не меняется
-            while (m < k) {  // откуда внутренние циклы?
-                m++;
-                S += ((st * x) / (2.0 * m));   // числитель не изменяется
-            }
-        } else {
-            while (m < k) {
-                m++;
-                S += ((st * x) / ((2.0 * m) - 1.0));
+        double x = in.nextDouble();
+        double S = x, t2 = x, t1 = 1.0;
+        while (m <= k * 2) {
+            m++;
+            if (m % 2 == 0) {
+                t1 *= x * x / (m * 2);
+                S += t1;
+            } else {
+                t2 *= x * x / (2 * m - 1);
+                S += t2;
             }
         }
         System.out.println(S);
-    } else {
-        System.out.println("Вы ввели не число!");
-        }
     }
 }
+

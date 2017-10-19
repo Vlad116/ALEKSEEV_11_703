@@ -1,4 +1,4 @@
-package ru.itis;
+package EX12;
 
 import java.util.Scanner;
 public class EX12A {
@@ -12,7 +12,7 @@ public class EX12A {
         eps = ep.nextDouble();
         while (Math.abs(t) > eps) {
             S += t;
-            t *= x/n; 
+            t *= x/n;
             n++;
         }
         System.out.println(S);

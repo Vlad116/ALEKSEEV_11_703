@@ -3,18 +3,18 @@ public class EX11B {
     public static void main(String[] args) {
         System.out.println("Введите число i (i >= 0):");
         Scanner in = new Scanner(System.in);
-        int i,k = 0;
+        int i,k = 1;
         double t;// t - сумма
         if (in.hasNextInt()) {
             i = in.nextInt();
-            double cs = Math.cos(1);
-            double sn = Math.sin(1);
-            t = cs / sn;
-            while (k < i){
+            double cs = 1;
+            double sn = 1;
+            t = 0 ;
+            while (k <= i){
+                cs *= Math.cos(k);
+                sn *= Math.sin(k);
+                t += cs / sn;
                 k++;
-                cs = cs + Math.cos(k);    // Все это 
-                sn = sn + Math.sin(k);    // не соответствует
-                t = cs / sn;              // условию задачи
             }
             System.out.println(t);
         } else {
@@ -22,4 +22,3 @@ public class EX11B {
         }
     }
 }
-//Подозреваю , что не верно. Переделаю...

@@ -1,22 +1,21 @@
 import java.util.Scanner;
 
 public class EX10A {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         System.out.println("Введите числа к(k >= 0) и x: ");
-        int x, k, m = 0, f = 1;
+        int k, m = 1;
         Scanner in = new Scanner(System.in);
         Scanner sc = new Scanner(System.in);
-       if ((in.hasNextInt())&(sc.hasNextInt())){
+        if ((in.hasNextInt()) & (sc.hasNextInt())) {
             k = in.nextInt();
-            x = sc.nextInt();
-           double S = x;
-           int    p = -1;
-           int    st = 1;
-           while (m < k) {
+            double x = sc.nextDouble();
+            double S = x;
+            double t = x;
+            int p = -1;
+            while (m <= k) {
                 m++;
-                S = S + ( 1.0 * (st * x * x)) / ((f * m) * (2 * m + 1)) * p; // зачем вам эти единицы в виде f и st?
-                                                                          //  У вас формируется совершенно непонятное что-то. 
-                                                                           //     Делайте трассировку!
+                t *= x * x * (2 * (k - 1) + 1) / (k * (2 * k + 1));
+                S += t * p;
                 p = -p;
             }
             System.out.println(S);

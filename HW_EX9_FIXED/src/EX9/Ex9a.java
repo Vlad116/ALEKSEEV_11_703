@@ -13,7 +13,7 @@ public class Ex9a {
             int p = 1;
             while (k < m) {
                 k++;
-                sum = sum + 1.0 / (k * k) * p;
+                sum += 1.0 / (k * k) * p;
                 p = -p;
             }
             System.out.println(sum);

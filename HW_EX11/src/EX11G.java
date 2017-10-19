@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class EX11G {
     public static void main(String[] args) {
         System.out.println("Введите число i (i >= 0):");
@@ -7,14 +8,14 @@ public class EX11G {
         double v; // v - произведение
         if (in.hasNextInt()) {
             i = in.nextInt();
-            double sn = Math.sin(1);
-            double cs = Math.cos(1);
+            double sn = 1;
+            double cs = 1;
             v = sn / cs;
-            while (k < i){
+            while (k <= i) {
+                sn *= Math.sin(k);
+                cs *= Math.cos(k);
+                v *= sn / cs;
                 k++;
-                sn = sn * Math.sin(k);
-                cs = cs * Math.cos(k);
-                v = sn / cs;  //  откуда это выражение?
             }
             System.out.println(v);
         } else {
