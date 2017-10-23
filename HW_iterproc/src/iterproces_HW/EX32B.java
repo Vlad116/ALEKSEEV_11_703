@@ -14,6 +14,7 @@ public class EX32B {
             x0 = x1;
             x1 = 1 + 9 * Math.sin(x0) / 2;
         }
+        // искомое f = x1
         System.out.println("Искомое значение = " + x1);
     }
 }

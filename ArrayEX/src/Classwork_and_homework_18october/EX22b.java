@@ -14,7 +14,7 @@ public class EX22b {
             a[i] = (int) Math.round(Math.random() * 100 - 50);
             System.out.print(a[i] + " ");
         }
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n-1; i++) {
             if ((a[i + 1] >= 0) & (a[i] < 0)) {
                 q++;
             } else {

@@ -21,6 +21,7 @@ public class EX23B {
             v1 = v2;
             v2 = v0 + v1;
             t *= v2 / 2.0;
+            p = -p;
         }
         System.out.println("s = " + s);
     }

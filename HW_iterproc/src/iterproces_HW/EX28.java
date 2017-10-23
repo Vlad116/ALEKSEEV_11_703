@@ -1,7 +1,6 @@
 package iterproces_HW;
 
 import java.util.Scanner;
-// не могу понять почему при некоторых значениях  программа безбожно циклит...
 public class EX28 {
     public static void main(String[] args) {
         System.out.print("Введите значение (0 < x < 2) x = ");
@@ -9,17 +8,13 @@ public class EX28 {
          double x = in.nextDouble();
         System.out.print("Введите значение eps = ");
          double eps = in.nextDouble();
-         double a0 = x;
-         double b0 = 1 - x;
-         double a1 = a0 * (1.0 + b0 / 2.0);
-         double b1 = b0 * b0 * (3.0 + b0);
-        while (b1 > eps) {
-             a0 = a1;
-             b0 = b1;
-             a1 = a0 * (1.0 + b0 / 2.0);
-             b1 = b0 * b0 * (3.0 + b0);
-            System.out.println("x ^ 1/2 = " + a1);
+         double a = x;
+         double b = 1 - x;
+        while (Math.abs(b) > eps) {
+             a = a * (1.0 + b / 2.0);
+             b = b * b * (3.0 + b);
+            System.out.println("x ^ 1/2 = " + a);
         }
-        System.out.println("x ^ 1/2 = " + a1);
+        System.out.println("x ^ 1/2 = " + a);
     }
 }
