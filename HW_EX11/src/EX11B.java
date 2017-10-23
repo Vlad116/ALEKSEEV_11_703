@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//+
 public class EX11B {
     public static void main(String[] args) {
         System.out.println("Введите число i (i >= 0):");

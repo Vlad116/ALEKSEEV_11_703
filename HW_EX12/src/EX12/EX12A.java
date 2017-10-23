@@ -1,4 +1,4 @@
-package EX12;
+package EX12;//+
 
 import java.util.Scanner;
 public class EX12A {
