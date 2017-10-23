@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//+
 
 public class EX11G {
     public static void main(String[] args) {
