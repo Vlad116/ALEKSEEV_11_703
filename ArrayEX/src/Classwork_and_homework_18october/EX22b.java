@@ -14,19 +14,8 @@ public class EX22b {
             a[i] = (int) Math.round(Math.random() * 100 - 50);
             System.out.print(a[i] + " ");
         }
-<<<<<<< HEAD
-        for (int i = 0; i < n-1; i++) {
-            if ((a[i + 1] >= 0) & (a[i] < 0)) {
-=======
-        for (int i = 0; i < n; i++) {
-            if ((a[i + 1] >= 0) & (a[i] < 0)) {  //длинно
->>>>>>> 4db5d6bb77d0100bf92bbba487324bf8d29e79c1
-                q++;
-            } else {
-                if ((a[i + 1] < 0) & (a[i] >= 0)) {
-                    q++;
-                }
-            }
+        for ( int i = 0; i < n-1; i++) {
+            if (a[i]*a[i+1] < 0) q++;
         }
         System.out.println();
         System.out.println("Число перемен знака равно = " + q);
