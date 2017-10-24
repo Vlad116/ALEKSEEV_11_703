@@ -1,6 +1,7 @@
-package iterproces_HW;
+package The_iterative_process_HW;
 
 import java.util.Scanner;
+
 public class EX28 {
     public static void main(String[] args) {
         System.out.print("Введите значение (0 < x < 2) x = ");

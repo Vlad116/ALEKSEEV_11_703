@@ -1,8 +1,7 @@
-package Classwork_and_homework_18october;//+-
+package array_hw;//+-
 
 import java.util.Scanner;
 
-//Что не верно? Уходит за пределы массива...
 public class EX22b {
     public static void main(String[] args) {
         System.out.print("Enter n = ");

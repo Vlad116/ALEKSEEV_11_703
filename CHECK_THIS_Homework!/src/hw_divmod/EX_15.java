@@ -1,4 +1,4 @@
-package hw.itis;
+package hw_divmod;
 
 import java.util.Scanner;
 // Построить число М - которое содержит только нечетные цифры числа N

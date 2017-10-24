@@ -1,6 +1,7 @@
-package iterproces_HW;
+package The_iterative_process_HW;
 
 import java.util.Scanner;
+
 //Метод простых итераций
 public class EX32B {
     public static void main(String[] args) {

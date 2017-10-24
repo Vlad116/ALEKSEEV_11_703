@@ -1,4 +1,4 @@
-package iterproces_HW;
+package The_iterative_process_HW;
 
 public class NewtonMethodEX30a {
 //Метод касательных

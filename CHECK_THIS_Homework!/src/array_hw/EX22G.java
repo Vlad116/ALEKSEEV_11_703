@@ -1,4 +1,4 @@
-package Classwork_and_homework_18october;
+package array_hw;
 
 import java.util.Scanner;
 

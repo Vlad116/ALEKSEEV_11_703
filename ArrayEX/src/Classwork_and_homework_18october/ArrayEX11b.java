@@ -1,4 +1,4 @@
-package Classwork_and_homework_18october;//+
+package Classwork_and_homework_18october;
 
 import java.util.Scanner;
 
