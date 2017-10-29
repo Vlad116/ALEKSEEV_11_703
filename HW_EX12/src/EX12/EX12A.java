@@ -10,7 +10,7 @@ public class EX12A {
         Scanner ep = new Scanner(System.in);
         x = in.nextDouble();
         eps = ep.nextDouble();
-        while (Math.abs(t) > eps) {
+        while (Math.abs(t) > eps) {// 2 схема обрыва ИП
             S += t;
             t *= x/n;
             n++;

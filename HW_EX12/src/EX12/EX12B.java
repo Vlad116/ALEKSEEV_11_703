@@ -10,7 +10,7 @@ public class EX12B {
         double eps = in.nextDouble();
         int k = 0, p = 1;
         double S = 0, t = x;
-            while (Math.abs(t) > eps) {
+            while (Math.abs(t) > eps) {// 2 схема обрыва ИП
                 S += t * p;
                 p = -p;
                 k++;

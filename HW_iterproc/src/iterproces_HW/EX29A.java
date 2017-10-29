@@ -10,7 +10,7 @@ public class EX29A {
         double x0 = 0, x1;
         int n = 1;
         x1 = (x0 + 1) / (x0 + 2);// вычислили пару
-        while (Math.abs(x1 - x0) > eps){
+        while (Math.abs(x1 - x0) > eps){// 3 схема обрыва ИП
             // проверяем с эпсилон
             x0 = x1;
             x1 = (x0 + 1) / (x0 + 2);// вычислили новую пару

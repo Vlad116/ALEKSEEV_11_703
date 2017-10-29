@@ -1,5 +1,4 @@
-import java.util.Random;
-import java.util.Scanner;
+package array_hw;
 
 public class EX_1 {
     public static void main(String[] args) {
@@ -14,6 +13,6 @@ public class EX_1 {
                 u = 1;
             }
         }
-        System.out.print("кол-во элементов массива равных его минималному элементу = " + u);
+        System.out.print("кол-во элементов массива равных его минимальному элементу = " + u);
     }
 }

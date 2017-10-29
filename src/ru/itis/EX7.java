@@ -5,7 +5,7 @@ public class EX7 {
     public static void main(String[]args) {
         double R = 1;
         int k = 0;
-        while (Math.abs(R - pi/2) >= e){
+        while (Math.abs(R - pi/2) >= e){// 1 схема обрыва ИП
             k++;
             R *= (( 4.0 * (k * k))/(4.0 * (k * k) - 1.0));
         }
