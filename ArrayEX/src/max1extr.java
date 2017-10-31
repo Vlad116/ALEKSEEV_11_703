@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//?
 
 import java.util.Random;
 
@@ -35,4 +35,4 @@ public class max1extr {
             System.out.print(x + " ");
         }
     }
-}
+}   //масса ошибок, не пойму, какую сортировку вы здесь закодировали
