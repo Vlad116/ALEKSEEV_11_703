@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//подпишите, какая сортировка
 
 import java.util.Random;
 
