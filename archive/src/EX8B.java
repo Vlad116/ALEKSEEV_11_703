@@ -1,4 +1,3 @@
-package array_hw;
 
 public class EX8B {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package array_hw;//+
 
 import java.util.Scanner;
 

@@ -1,4 +1,3 @@
-package array_hw;
 
 public class EX_1 {
     public static void main(String[] args) {
