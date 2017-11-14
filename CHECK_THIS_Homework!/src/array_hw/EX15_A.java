@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class EX15_A {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 8, 4, 3, 5, 4, 3, 1, 7, 2};
-        int s = 100000000, t = 1, l = 1;
+        int s = 100000000, t = 1, l = 1;  // хватило бы s = a.length
         for (int i = 1; i < a.length - 1; i++) {
             if (a[i - 1] < a[i]) {
                 l++;
