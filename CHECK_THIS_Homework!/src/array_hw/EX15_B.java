@@ -15,7 +15,7 @@ public class EX15_B {
                 k = 1;
             }
         }
-        if (a[a.length - 2] < a[a.length - 1]) {
+        if (a[a.length - 2] < a[a.length - 1]) {     //проверка лишняя 
             u[k - 1]++;
         } else {
             u[0]++;
