@@ -1,3 +1,5 @@
+package Control_Work.src;
+
 import java.util.Scanner;
 
 public class B2_1 {
