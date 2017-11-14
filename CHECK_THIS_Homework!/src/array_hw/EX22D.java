@@ -1,4 +1,4 @@
-package array_hw;
+package array_hw;  //-+
 
 import java.util.Random;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class EX22D {
             for (int j = 0; j < a.length; j++) {
                 if (a[i] != a[j])
                     u++;
-                if (u == n-1) {
+                if (u == n-1) {                   //детсадовский способ. Только что прошли кванторы
                     System.out.print(a[i] + ", ");
                     k++;
                 }
