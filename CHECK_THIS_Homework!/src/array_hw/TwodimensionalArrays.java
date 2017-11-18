@@ -137,19 +137,18 @@ public class TwodimensionalArrays {
     private static int[][] BubleSort(int matrix[][]) {
         int t;
         for (int k = 0; k < matrix.length; k++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                for (int i = matrix[0].length - 1; i > j; i--) {
-                    if (matrix[k][i] < matrix[k][i - 1]) {
-                        t = matrix[k][i];
-                        matrix[k][i] = matrix[k][i - 1];
-                        matrix[k][i - 1] = t;
+            for (int i = matrix[0].length - 1; i > 0; i--) {
+                for (int j = 0; j < i; j++) {
+                    if (matrix[k][j] > matrix[k][j + 1]) {
+                        t = matrix[k][j];
+                        matrix[k][j] = matrix[k][j + 1];
+                        matrix[k][j + 1] = t;
                     }
                 }
             }
         }
         return matrix;
     }
-
     // ДЗ №2
     private static int[][] SetToZero(int matrix[][]) {
         for (int i = 0; i < matrix.length; i++) {
@@ -189,41 +188,51 @@ public class TwodimensionalArrays {
         int[] SumC = new int[matrix.length];
         boolean f = true;
         int SumGl = 0;
-        for (int i = 0; i < matrix.length; i++) {
-            SumGl += matrix[i][i];
-        }
         int SumPb = 0;
-        for (int i = 0; i < matrix.length; i++) {
-            SumPb += matrix[i][matrix.length - i - 1];
-        }
-        for (int i = 0; i < matrix.length; i++) {
+
+        for (int i = 0; i < matrix.length && f; i++) {
             int SumStr = 0;
             for (int j = 0; j < matrix[i].length; j++) {
                 SumStr += matrix[i][j];
             }
             System.out.println("Суммма " + (i + 1) + "-ой строки = " + SumStr);
             SumS[i] = SumStr;
+            if (SumStr != SumS[0]) {
+                f = false;
+            }
         }
         System.out.println();
-        for (int i = 0; i < matrix[0].length; i++) {
+        for (int i = 0; i < matrix[0].length && f; i++) {
             int SumColomn = 0;
             for (int j = 0; j < matrix.length; j++) {
                 SumColomn += matrix[j][i];
             }
             System.out.println("Суммма " + (i + 1) + "-ого столбца = " + SumColomn);
             SumC[i] = SumColomn;
-            if (SumC[i] != SumS[i]) {
-                f = false;
-            }
-            if (SumGl != SumC[i]) {
-                f = false;
-            }
-            if (SumPb != SumS[i]) {
+            if (SumC[i] != SumS[0]) {
                 f = false;
             }
         }
+
+        for (int i = 0; i < matrix.length && f; i++) {
+            SumGl += matrix[i][i];
+        }
+
+        if (SumGl != SumS[0]) {
+            f = false;
+        }
+
+        for (int i = 0; i < matrix.length && f; i++) {
+            SumPb += matrix[i][matrix.length - i - 1];
+        }
+
+        if (SumPb != SumS[0]) {
+            f = false;
+        }
+
         System.out.println();
-        if (SumGl == SumPb && f) {
+
+        if (f) {
             System.out.println("Данная матрица является магическим квадратом!");
         } else {
             System.out.println("Данная матрица не является магическим квадратом!");

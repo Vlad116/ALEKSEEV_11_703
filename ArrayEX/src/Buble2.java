@@ -36,7 +36,5 @@ public class Buble2 {
         }
         System.out.println();
         System.out.println(k);
-
     }
 }
-

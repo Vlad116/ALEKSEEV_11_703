@@ -1,4 +1,4 @@
-package Control_Work.src;
+package Control_Work;
 
 import java.util.Scanner;
 
