@@ -1,32 +1,26 @@
 package Semestr_Work;
-
-import java.util.Scanner;
-
 // к д к
 public class EX1_2 {
     public static void main(String[] args) {
-        System.out.println("Введите n,m,h,z[0],z[1] :  ");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt(),
-                m = sc.nextInt();
-        double[] z = new double[n];
+        int n = 32, m = 6;
         int[] f = new int[m];
-        double h = sc.nextDouble(), zi;
-        z[0] = sc.nextDouble();
-        z[1] = sc.nextDouble();
-        for (int i = 2; i < n; i++) {
-            z[i] = 0.8 + 2 * Math.sin(z[0]) - 5.5 * Math.sin(z[1]) * Math.sin(z[1]);
-        }
-        for (int j = 1; j <= m; j++) {
-            for (int i = 0; i < n; i++) {
-                zi = (z[i] + 1.5) * (z[i] + 1.5);
+        double h = 2.0, zi;
+        double z0 = -0.06;
+        double z1 = -3.50;
+        double z2;
+        for (int i = 0; i < n; i++) {
+            z2 = 0.8 + 2 * Math.sin(z0) - 5.5 * Math.sin(z1) * Math.sin(z1);
+            z0 = z1;
+            z1 = z2;
+            for (int j = 1; j <= m; j++) {
+                zi = (z2 + 1.5) * (z2 + 1.5);
                 if ((zi < j * h) && (zi >= (j - 1) * h)) {
                     f[j - 1]++;
                 }
             }
         }
-        for (int i = 0; i < m; i++) {
-            System.out.print(f[i] + ", ");
+        for (int j = 0; j < m; j++) {
+            System.out.print(f[j] + ", ");
         }
     }
 }

@@ -23,7 +23,7 @@ public class EX22D {
                     f = false;
             }
             if (f) {
-                System.out.print(a[i] + ", ");
+                System.out.print(a[i] + " ");
                 k++;
             }
         }
