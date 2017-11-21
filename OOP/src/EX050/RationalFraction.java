@@ -15,7 +15,7 @@ public class RationalFraction {
     }
 
     void reduce() {
-        double c = this.x / this.y;
+        double c = this.x / this.y;   //very strange function
     }
 
     RationalFraction add(RationalFraction a) {
@@ -48,7 +48,7 @@ public class RationalFraction {
     void mult2(RationalFraction a) {
         this.x *= a.x;
         this.y *= a.y;
-        System.out.println(this.x + "/" + this.y);
+        System.out.println(this.x + "/" + this.y);  //it's not a good idea, we get the code duplication
     }
 
     RationalFraction div(RationalFraction a) {
@@ -59,7 +59,7 @@ public class RationalFraction {
     void div2(RationalFraction a) {
         this.x = this.x * a.y;
         this.y = this.y * a.x;
-        System.out.println(this.x + "/" + this.y);
+        System.out.println(this.x + "/" + this.y);   //!
     }
 
     @Override
@@ -76,7 +76,7 @@ public class RationalFraction {
     boolean eguals(RationalFraction a) {
         double z = this.x / this.y;
         double w = a.x / a.y;
-        return z == w;
+        return z == w;       //This is wrong
     }
 
     int numberPart() {
