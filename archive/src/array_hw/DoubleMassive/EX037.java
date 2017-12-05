@@ -9,7 +9,7 @@ public class EX037 {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
         System.out.print("N = ");
-        int N = sc.nextInt();
+        int N = sc.nextInt();   // N must be a small letter, this is not a constant
         int min = 1000000;
         int[][] matrix = new int[N][N];
 

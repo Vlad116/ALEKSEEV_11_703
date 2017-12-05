@@ -16,6 +16,7 @@ public class RationalFraction {
         this.y = b;
     }
 
+<<<<<<< HEAD
 
     public void reduce() {
         for (int i = 1; i <= Math.abs(x); i++) {
@@ -26,6 +27,10 @@ public class RationalFraction {
                 }
             }
         }
+=======
+    void reduce() {
+        double c = this.x / this.y;   //very strange function
+>>>>>>> 46823cc5730d41ce8e4bf4bb8ff0a437715cbba2
     }
 
     public RationalFraction add(RationalFraction a) {
@@ -61,7 +66,11 @@ public class RationalFraction {
     public void mult2(RationalFraction a) {
         this.x *= a.x;
         this.y *= a.y;
+<<<<<<< HEAD
         this.reduce();
+=======
+        System.out.println(this.x + "/" + this.y);  //it's not a good idea, we get the code duplication
+>>>>>>> 46823cc5730d41ce8e4bf4bb8ff0a437715cbba2
     }
 
     public RationalFraction div(RationalFraction a) {
@@ -73,7 +82,11 @@ public class RationalFraction {
     public void div2(RationalFraction a) {
         this.x = this.x * a.y;
         this.y = this.y * a.x;
+<<<<<<< HEAD
         this.reduce();
+=======
+        System.out.println(this.x + "/" + this.y);   //!
+>>>>>>> 46823cc5730d41ce8e4bf4bb8ff0a437715cbba2
     }
 
     @Override
@@ -86,10 +99,17 @@ public class RationalFraction {
         return z;
     }
 
+<<<<<<< HEAD
     public boolean eguals(RationalFraction a) {
         this.reduce();
         a.reduce();
         return (this.x == a.x) && (this.y == a.y) && (this.value() == a.value());
+=======
+    boolean eguals(RationalFraction a) {
+        double z = this.x / this.y;
+        double w = a.x / a.y;
+        return z == w;       //This is wrong
+>>>>>>> 46823cc5730d41ce8e4bf4bb8ff0a437715cbba2
     }
 
     public int numberPart() {
