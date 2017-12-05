@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-
+// Cитдиков  дз №1
 public class BubleSortDoubleMassive {
     public static void main(String[] args) {
 

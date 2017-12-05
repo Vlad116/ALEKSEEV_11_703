@@ -1,4 +1,4 @@
-package array_hw;
+package array_hw.DoubleMassive;
 
 import java.util.Random;
 import java.util.Scanner;

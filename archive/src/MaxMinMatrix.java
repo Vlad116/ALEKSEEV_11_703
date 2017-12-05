@@ -1,5 +1,3 @@
-package ru.itis;
-
 public class MaxMinMatrix {
 
     public static void main(String[] args) {

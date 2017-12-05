@@ -1,6 +1,3 @@
-package ru.itis;
-
-import java.io.File;
 import java.util.Scanner;
 
 

@@ -6,17 +6,33 @@
 package EX049;
 
 public class Vector2D {
-    double x;
-    double y;
+    private double x;
+    private double y;
 
-    Vector2D() {
+    public Vector2D() {
         x = 0;
         y = 0;
     }
 
-    Vector2D(double a, double b) {
+    public Vector2D(double a, double b) {
         this.x = a;
         this.y = b;
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
     }
 
     public Vector2D add(Vector2D a, Vector2D b) {
@@ -64,15 +80,11 @@ public class Vector2D {
         return Math.sqrt(a.x * a.x + a.y * a.y);
     }
 
-    public double scalarProduct(Vector2D a, Vector2D b) {
-        return a.x * b.x + a.y * b.y;
-    }
+    public double scalarProduct(Vector2D a, Vector2D b) { return a.x * b.x + a.y * b.y; }
 
     public double cos(Vector2D a, Vector2D b) {
         return (scalarProduct(a, b) / (length(a) * length(b)));
     }
 
-    public boolean equals(Vector2D a) {
-        return this.x == a.x && this.y == a.y;
-    }
+    public boolean equals(Vector2D a) { return this.x == a.x && this.y == a.y; }
 }
