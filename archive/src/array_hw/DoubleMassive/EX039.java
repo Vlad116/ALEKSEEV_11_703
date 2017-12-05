@@ -16,7 +16,6 @@ public class EX039 {
         System.out.print("Введите P = ");
         int P = sc.nextInt();
         int[] B = new int[P];
-        // 3) Заполним матрицу числами
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 A[i][j] = rand.nextInt(10);

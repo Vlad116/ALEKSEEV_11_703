@@ -136,13 +136,17 @@ public class TwodimensionalArrays {
     // ДЗ №1
     private static int[][] BubleSort(int matrix[][]) {
         int t;
+        boolean f = false;
         for (int k = 0; k < matrix.length; k++) {
-            for (int i = matrix[0].length - 1; i > 0; i--) {
+            f = false;
+            for (int i = matrix[0].length - 1; i > 0 && !f; i--) {
+                f = true;
                 for (int j = 0; j < i; j++) {
                     if (matrix[k][j] > matrix[k][j + 1]) {
                         t = matrix[k][j];
                         matrix[k][j] = matrix[k][j + 1];
                         matrix[k][j + 1] = t;
+                        f = false;
                     }
                 }
             }
