@@ -7,8 +7,8 @@ public class RationalVector2D {
     private RationalFraction y;
 
     RationalVector2D() {
-        x = new RationalFraction();
-        y = new RationalFraction();
+        this.x = new RationalFraction();
+        this.y = new RationalFraction();
     }
 
     RationalVector2D(RationalFraction x, RationalFraction y) {
@@ -25,11 +25,15 @@ public class RationalVector2D {
 
     @Override
     public String toString() {
-        return "RationalVector2D: " + "x = " + x + ", y = " + y;
+        return "x = " + x + ", y = " + y;
     }
 
     public double length() {
         return Math.sqrt(x.mult(x).add(y.mult(y)).value());
+    }
+
+    public RationalFraction scalarProduct(RationalVector2D rationalVector2D){
+        return x.mult(rationalVector2D.x).add(y.mult(rationalVector2D.y));
     }
 
     public boolean equals(RationalVector2D a) {

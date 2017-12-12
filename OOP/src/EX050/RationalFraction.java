@@ -1,7 +1,5 @@
 package EX050;
 
-import EX053.RationalVector2D;
-
 public class RationalFraction {
     private int x;
     private int y;
