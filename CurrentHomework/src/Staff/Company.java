@@ -8,13 +8,14 @@ public class Company {
         Designer Olya = new Designer("Olya");
         Devoloper Jack = new Devoloper("Jack");
         Devoloper John = new Devoloper("John");
-        Tester Ly = new Tester("Ly");
-        CompanyEmployee staff[] = {Ilya,Vasya,Olya,Jack,John,Ly};
+        Tester Ly = new Tester("Li");
+        Tester Ty = new Tester("Ty");
+        CompanyEmployee staff[] = {Ilya,Vasya,Olya,Jack,John,Ly,Ty};
         for (int i = 0; i < staff.length; i++){
             staff[i].getInfo();
             System.out.println();
             StaffSalary += staff[i].salary;
         }
-        System.out.println("Всего сотрудникам нужно заплатить: " + StaffSalary);
+        System.out.println("Все необходимо выдать зарплату на сумму: " + StaffSalary);
     }
 }

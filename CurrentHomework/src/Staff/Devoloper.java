@@ -9,6 +9,6 @@ public class Devoloper extends CompanyEmployee {
     }
     @Override
     void getInfo() {
-        System.out.println("Имя: " + name + "\n" + "Пост: " + post + "\n" + "Зарплата: " + salary + "\n" + "Задачи: " + charge);
+        System.out.println("Имя: " + name + "\n" + "Пост: " + post + "\n" + "Зарплата: " + salary + "руб." + "\n" + "Задачи: " + charge);
     }
 }

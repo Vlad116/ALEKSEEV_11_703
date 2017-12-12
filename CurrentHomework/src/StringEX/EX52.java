@@ -29,3 +29,4 @@ public class EX52 {
             System.out.println("Строка s2 не содержиться в s1");
     }
 }
+
