@@ -7,9 +7,9 @@ public class Main {
         System.out.println(C.toString());
         C.reduce();
         System.out.println(C.toString());
-        System.out.println(A.add(B).toString());
-        A.add2(B);
-        System.out.println(A.toString());
+        System.out.println(C.add(B).toString());
+        C.add2(B);
+        System.out.println(C.toString());
         System.out.println(A.sub(B).toString());
         A.sub2(B);
         System.out.println(A.toString());

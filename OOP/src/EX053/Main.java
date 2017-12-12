@@ -10,8 +10,7 @@ public class Main {
         RationalVector2D a = new RationalVector2D();
         RationalVector2D b = new RationalVector2D(x, y);
         RationalVector2D c = new RationalVector2D(x, z);
-        System.out.println("Рациональный вектор с :");
-        System.out.println(c.toString());
+        //System.out.println("RathionalFraction c = " + c.toString());
         System.out.println(b.add(c).toString());
         //System.out.println(b.length(b));
         //System.out.println(a.scalarProduct(a,b));
