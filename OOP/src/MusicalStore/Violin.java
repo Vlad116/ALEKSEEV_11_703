@@ -1,13 +1,48 @@
 package MusicalStore;
 
-public class Violin extends MusicalInstrument{
-    public Violin() {
-        super.name = "Скрипка";
-        super.cost = 11999;
-        super.sound = "*Печальный звук скрипки*";
+public class Violin implements MusicalInstrument {
+    private int id;
+    private int cost;
+    private String name;
+    private String sound;
+
+    @Override
+    public String getName() {
+        return name;
     }
-    public Violin(String name, int cost, String sound) {
-        super(name, cost, sound);
+
+    @Override
+    public String getSound() {
+        return sound;
+    }
+
+    @Override
+    public int getCost() {
+        return cost;
+    }
+
+    @Override
+    public int getID() {
+        return id;
+    }
+    @Override
+    public void setID(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void setSound(String sound) {
+        this.sound = sound;
     }
 
     @Override

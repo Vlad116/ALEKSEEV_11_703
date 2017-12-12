@@ -1,24 +1,56 @@
 package MusicalStore;
 
-public class Guitar extends MusicalInstrument {
+public class Guitar implements MusicalInstrument {
     private int id;
-    String type;
+    private int cost;
+    private String name;
+    private String sound;
+    private String type;
 
-    public Guitar() {
-        super.name = "Гитара";
-        super.cost = 5000;
-        super.sound = "Брынь...";
-        this.type = "Классическая";
+    @Override
+    public String getName() {
+        return name;
     }
 
-    public Guitar(String name, int cost, String sound, String type) {
-        super(name, cost, sound);
-        this.type = type;
+    @Override
+    public String getSound() {
+        return sound;
+    }
+
+    @Override
+    public int getCost() {
+        return cost;
+    }
+
+    @Override
+    public int getID() {
+        return id;
+    }
+
+    @Override
+    public void setID(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void setSound(String sound) {
+        this.sound = sound;
     }
 
     @Override
     public String toString() {
-        return "Guitar:" + "type - " + type + '\'' +
+        return "Guitar:" +
+                "type - " + type + '\'' +
                 "name - '" + name + '\'' +
                 "cost - " + cost + '\'' +
                 "sound - " + sound + '\'';
