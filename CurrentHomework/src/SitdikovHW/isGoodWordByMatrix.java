@@ -1,4 +1,4 @@
-package ru.itis;
+package SitdikovHW;
 
 public class isGoodWordByMatrix {
     public static boolean isGoodWordByMatrix(String text) {
@@ -18,51 +18,18 @@ public class isGoodWordByMatrix {
         }
         while ((i < l) && isNotFinishState) {
             //state, array[i] - на вход индексы
-            state = m[state][array[i]];
+            int t = array[i] - '0';
+            state = m[state][t];
             i++;
             if (state == 4)
                 isNotFinishState = false;
         }
         if (state == 3) System.out.println("Все нормально");
         return isNotFinishState;
-        /*switch (state) {
-                case 0:
-                    if (array[i] == 'б') {
-                        i++;
-                        state++;
-                        break;
-                    } else {
-                        System.out.println("Все плохо");
-                        isNotFinishState = false;
-                    }
-                case 1:
-                    if ((i == array.length - 1) && (array[i] == 'э')) {
-                        System.out.println("Все плохо");
-                        isNotFinishState = false;
-                        break;
-                    } else if ((i != array.length - 1) && (array[i] == 'э')) {
-                        i++;
-                        break;
-                    } else {
-                        state++;
-                    }
-                case 2:
-                    if (array[i] == '!') {
-                        System.out.println("Все нормально");
-                        isNotFinishState = false;
-                        break;
-                    } else {
-                        System.out.println("Все плохо");
-                        break;
-                    }
-            }
-        }
-        System.out.println("\n" + "Цикл завершен");
-        return isNotFinishState;
     }
-    */
+
     public static void main(String[] args) {
-        String words[] = {"бээ!", "б", "", "бэээээ!", "бэ", "!"};// тесты
+        String words[] = {"0112", "0", "", "011112", "01", "2"};// тесты
         for (int i = 0; i < words.length; i++) {
             isGoodWordByMatrix(words[i]);
             System.out.println();

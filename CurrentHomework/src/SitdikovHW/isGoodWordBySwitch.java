@@ -11,7 +11,7 @@ public class isGoodWordBySwitch {
             System.out.println("Все плохо");
             isNotFinishState = false;
         }
-        while (isNotFinishState) {
+        while ((i < l) && isNotFinishState) {
             switch (state) {
                 case 0:
                     if (array[i] == 'б') {
@@ -44,7 +44,6 @@ public class isGoodWordBySwitch {
                     }
             }
         }
-        System.out.println("\n" + "Цикл завершен");
         return isNotFinishState;
     }
 
