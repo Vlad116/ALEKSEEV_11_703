@@ -1,4 +1,4 @@
-package MusicalStore;
+package MusicalStore.MusicalInstrument;
 
 public class Piano implements MusicalInstrument {
     private int id;
@@ -54,6 +54,7 @@ public class Piano implements MusicalInstrument {
     public void setSound(String sound) {
         this.sound = sound;
     }
+
     @Override
     public String toString() {
         return "Piano{" +

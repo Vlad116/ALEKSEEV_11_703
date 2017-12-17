@@ -1,4 +1,4 @@
-package MusicalStore;
+package MusicalStore.MusicalInstrument;
 
 public class Guitar implements MusicalInstrument {
     private int id;

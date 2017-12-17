@@ -1,18 +1,10 @@
-package MusicalStore;
+package MusicalStore.MusicalInstrument;
 
-public class Accordion implements MusicalInstrument {
-    private int id;
-    private int cost;
-    private String name;
-    private String sound;
-
-    @Override
-    public String toString() {
-        return "Accordion:" +
-                "name - " + name + '\'' +
-                ", cost - " + cost +
-                ", sound - " + sound + '\'';
-    }
+public class Violin implements MusicalInstrument {
+    int id;
+    int cost;
+    String name;
+    String sound;
 
     @Override
     public String getName() {
@@ -52,5 +44,13 @@ public class Accordion implements MusicalInstrument {
     @Override
     public void setSound(String sound) {
         this.sound = sound;
+    }
+
+    @Override
+    public String toString() {
+        return "Violin: " +
+                "name = " + name + '\'' +
+                ", cost = " + cost +
+                ", sound = " + sound + '\'';
     }
 }

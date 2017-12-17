@@ -1,4 +1,4 @@
-package MusicalStore;
+package MusicalStore.MusicalInstrument;
 
 public interface MusicalInstrument {
     String getName();
@@ -9,5 +9,4 @@ public interface MusicalInstrument {
     void setCost(int cost);
     void setName(String name);
     void setSound(String sound);
-    String toString();
 }

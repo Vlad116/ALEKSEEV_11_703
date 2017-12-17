@@ -1,4 +1,6 @@
-﻿package MusicalStore;
+﻿package MusicalStore.Store;
+
+import MusicalStore.MusicalInstrument.*;
 
 import java.util.Scanner;
 
@@ -27,17 +29,17 @@ public class Store {
         for (int i = 0; i < catalog.length; i++) {
             catalog[i].setID(i + 1);
         }
-        /*System.out.println("Добрый день, что вы хотите купить?");
+        System.out.println("Добрый день, что вы хотите купить?");
         System.out.println("Покажите мне ваш каталог");
         System.out.println("Вот посмотрите:");
         for (int i = 0; i < catalog.length; i++) {
             System.out.println(catalog[i].getName());
             System.out.println(catalog[i].getCost());
             System.out.println(catalog[i].getID());
-        }*/
+        }
         int i = sc.nextInt();// введите число от 0 до 3
         System.out.println("Классно!Можно мне посмотреть " + catalog[i].getID() + "-ый инструмент");
-        //System.out.println(catalog[i].toString());
+        System.out.println(catalog[i].toString());
         System.out.println("Мне понравилось, сколько с меня?");
         System.out.println("C вас " + catalog[i].getCost() + " рублей");
     }
