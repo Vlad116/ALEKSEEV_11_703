@@ -1,6 +1,6 @@
 package Staff;
 
-abstract class CompanyEmployee {
+abstract class CompanyEmploye {
     String name;
     String post;
     String charge;
