@@ -1,4 +1,4 @@
-package SitdikovHW;
+package Automat.SitdikovHW;
 
 public class isGoodWordByMatrix {
     public static boolean isGoodWordByMatrix(String text) {
@@ -25,11 +25,14 @@ public class isGoodWordByMatrix {
                 isNotFinishState = false;
         }
         if (state == 3) System.out.println("Все нормально");
+        else if (l > 3) {
+            System.out.println("Все плохо");
+        }
         return isNotFinishState;
     }
 
     public static void main(String[] args) {
-        String words[] = {"0112", "0", "", "011112", "01", "2"};// тесты
+        String words[] = {"0112", "0", "01111111", " ", "011112", "01", "2"};// тесты
         for (int i = 0; i < words.length; i++) {
             isGoodWordByMatrix(words[i]);
             System.out.println();

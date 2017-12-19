@@ -1,4 +1,4 @@
-package SitdikovHW;
+package Automat.SitdikovHW;
 
 public class isGoodWordBySwitch {
     public static boolean isGoodWordBySwitch(String text) {
