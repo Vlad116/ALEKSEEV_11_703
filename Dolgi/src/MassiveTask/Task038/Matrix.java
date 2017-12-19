@@ -1,4 +1,4 @@
-package MassiveTask;
+package MassiveTask.Task038;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
 package StringEX;
 import java.lang.String;
 import java.util.Scanner;
-
+// Did not finish...
 public class EX257 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

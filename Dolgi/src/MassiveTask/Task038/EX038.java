@@ -1,4 +1,4 @@
-package MassiveTask;
+package MassiveTask.Task038;
 
 public class EX038 {
     public static void main(String[] args) {
