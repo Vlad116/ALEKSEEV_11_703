@@ -14,7 +14,7 @@ public class Task1 {
     }
 
     private static int[][] Finding(int[][] a, int[] b) {
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++) {   //You can set the flag to no longer search
             if ((b[0] < a[i][0]) && (b[0] >= a[i + 1][0])) {
                 for (int j = a.length - 1; j > i + 1; j--) {
                     for (int k = 0; k < a[0].length; k++) {
