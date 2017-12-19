@@ -20,6 +20,21 @@ public class Task3 {
         }
         return f;
     }
+    /* boolean g,f = false;                                code without break
+    for (int i = 0; i < a.length & !f; i++) {
+    for (int j = i + 1; j < a.length & !f; j++) {
+       g = true;
+       for (int k = 0; k < a[j].length & g; k++) {
+                    if (a[i][k] != a[j][k]) {
+                        g = false;
+                    }
+             }
+       f = g;             
+     }
+    }
+   */
+    
+    
 
     private static void ShowMatrix(int[][] a) {
         for (int i = 0; i < a.length; i++) {
