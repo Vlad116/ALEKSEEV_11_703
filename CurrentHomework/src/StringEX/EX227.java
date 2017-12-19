@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EX227 {
     private static String makeEqualByLength(String str1, String str2) {
-        /*  Этот метод делает строки равными по длине для удобства счёта(добавляет 0 переде числом) */
+        /*  Этот метод делает строки равными по длине для удобства счёта (добавляет 0 переде числом) */
         int Difference = Math.abs(str1.length() - str2.length());
         if (str1.length() > str2.length()) {
             for (int i = 0; i < Difference; i++) {
@@ -51,6 +51,6 @@ public class EX227 {
         String str2 = sc.next();
         makeEqualByLength(str1, str2);
         String sum = Summ(str1, str2);
-        System.out.println(sum);
+        System.out.println("Сумма чисел равна: " +'\n' + sum);
     }
 }
