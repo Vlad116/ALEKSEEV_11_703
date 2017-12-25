@@ -19,12 +19,12 @@ public class MaxMinMatrix {
     }
 
     public static int findMin(int[] row) {
-        int min = row[0];
+        int max = row[0];
         for (int i = 1; i < row.length; i++) {
-            if (row[i] < min) {
-                min = row[i];
+            if (row[i] > max) {
+                max = row[i];
             }
         }
-        return min;
+        return max;
     }
 }
