@@ -10,7 +10,6 @@ public class EX11 {
         WriteInMatrixRandomNumber(A);
         showMatrix(A);
         System.out.println();
-
         for (int i = 0; i < A.length; i++) {
             for (int j = 0; j < A[i].length; j++) {
                 if (FindMax(A[i]) <= 10) {// условие Pi к)
