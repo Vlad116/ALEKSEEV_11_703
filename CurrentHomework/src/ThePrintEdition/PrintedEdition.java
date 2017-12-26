@@ -5,7 +5,7 @@ public abstract class PrintedEdition {
     String tittle = "";
     String assignment = "";
 
-    public PrintedEdition(String type, String tittle, String assignment) {//зачем вам в абстрактном классе конструктор?
+    public PrintedEdition(String type, String tittle, String assignment) {
         this.type = type;
         this.tittle = tittle;
         this.assignment = assignment;
