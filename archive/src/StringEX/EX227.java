@@ -19,9 +19,8 @@ public class EX227 {
         }
     }
 
-    public static String Summ(String str1, String str2) {
-        /* Данный метод складывает числа в строках (str1 + str2)
-           где str - очень большие числа.         */
+       public static String Summ(String str1, String str2) {
+        /* Сложение очень больших чисел*/
         String FirstMemory = str1;
         String second = makeEqualByLength(str1, str2);  // Выравниваем длину чисел
         StringBuilder amount = new StringBuilder(); // строка для сохранения результата вычисления
