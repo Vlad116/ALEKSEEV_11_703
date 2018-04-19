@@ -20,7 +20,7 @@ public class CompilerTest {
 
     @Test
     public void testAnalyse() {
-        String input = "X1:=11;X2:=8;X3:=X1+2;Y1:=X3;Z1:=Y1-X2";
+        String input = "X1:=11;X2:=8;X3:=X1+2;Y1:=X3;Z1:=Y1-X2;";
         String input2 = "X7:=26;";
         compiler.analyse(input);
         compiler.analyse(input2);
@@ -29,7 +29,7 @@ public class CompilerTest {
 
     @Test(expected = SyntaxException.class)
     public void testAnalyseOnBad() {
-        String input = "X1=11;X2:=8;X3:=X1+X2;Y1:=X3;Z1:=Y1-X2";
+        String input = "X1=11;X2:=8;X3:=X1+X2;Y1:=X3;Z1:=Y1-X2;";
         compiler.analyse(input);
 
     }

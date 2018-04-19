@@ -1,10 +1,10 @@
 package CircleList;
 
-/*mport org.junit.Before;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;*/
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class CircleListTest {
     private CircleList circleList;
-/*
+
     @Before
     public void setUp() {
         circleList = new CircleList("members");
@@ -157,5 +157,5 @@ public class CircleListTest {
     public void testPutTheFirst() {
         circleList.putTheFirst("Goroshko");
         assertTrue(circleList.getFirstParticipant().getName().equals("Goroshko"));
-    }*/
+    }
 }
