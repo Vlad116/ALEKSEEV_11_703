@@ -8,10 +8,13 @@ package Lists;
  * @version v1.0
  */
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class LinkedList<T> implements List<T> {
-
 
 
     private class Node {
@@ -37,8 +40,8 @@ public class LinkedList<T> implements List<T> {
     public int indexOf(T element) {
         Node current = head;
         int index = 0;
-        while(current.next != null) {
-            if(current.value.equals(element)) {
+        while (current.next != null) {
+            if (current.value.equals(element)) {
                 return index;
             }
             index++;
@@ -48,10 +51,10 @@ public class LinkedList<T> implements List<T> {
     }
 
     @Override
-    public T get(int index)
-    {if (index >= count) {
-        throw new IllegalArgumentException();
-    }
+    public T get(int index) {
+        if (index >= count) {
+            throw new IllegalArgumentException();
+        }
         Node current = this.head;
         int i = 0;
 
@@ -111,14 +114,25 @@ public class LinkedList<T> implements List<T> {
 
     @Override
     public void remove(T element) {
-        Node current = head;
-        while(current.next != null ) {
-            if(current.next.value.equals(element)){
-                current.next = current.next.next;
+        if (element == head.value) {
+            head = head.next;
+            return;
+        }
+        Node previous = head;
+
+        for (Node node = head.next; node != tail; node = node.next) {
+            if (node.value == element) {
+                previous.next = node.next;
                 return;
             }
-            current = current.next;
+            previous = node;
         }
+
+        if (tail.value == element) {
+            tail = previous;
+            tail.next = null;
+        }
+
 
     }
 
@@ -156,14 +170,15 @@ public class LinkedList<T> implements List<T> {
     public void reverse() {
         Node x = head;
         Node y = head.next;
-        Node z = head.next != null ? head.next.next: null;
-        while(z != null) {
+        Node z = head.next != null ? head.next.next : null;
+        while (z != null) {
             y.next = x;
             x = y;
             y = z;
             z = z.next;
         }
         y.next = x;
+        LinkedList linkedList = new LinkedList();
     }
 
 
@@ -179,8 +194,14 @@ public class LinkedList<T> implements List<T> {
         return array;
     }*/
 
+    public LinkedListStream stream() {
+        LinkedListStream linkedListStream = new LinkedListStream(this);
+        return linkedListStream;
+    }
+
+
     private class LinkedListIterator implements Iterator<T> {
-        private  Node current = head;
+        private Node current = head;
 
         @Override
         public boolean hasNext() {
@@ -191,8 +212,10 @@ public class LinkedList<T> implements List<T> {
         public T next() {
             T result = current.value;
             current = current.next;
-            return result ;
+            return result;
         }
+
+
     }
 
     @Override
@@ -200,7 +223,7 @@ public class LinkedList<T> implements List<T> {
         return new LinkedListIterator();
     }
 
-    public static <E extends Comparable<E>>LinkedList merge(LinkedList<E> a, LinkedList<E> b) {
+    public static <E extends Comparable<E>> LinkedList merge(LinkedList<E> a, LinkedList<E> b) {
         LinkedList<E> newList = new LinkedList<>();
         Iterator<E> iteratorA = a.iterator();
         Iterator<E> iteratorB = b.iterator();
@@ -215,7 +238,7 @@ public class LinkedList<T> implements List<T> {
                 valueB = iteratorB.hasNext() ? iteratorB.next() : null;
             }
 
-            if(valueA != null && valueB != null && valueA.compareTo(valueB) == 0) {
+            if (valueA != null && valueB != null && valueA.compareTo(valueB) == 0) {
                 newList.add(valueA);
                 newList.add(valueB);
                 valueA = iteratorA.hasNext() ? iteratorA.next() : null;
@@ -230,6 +253,46 @@ public class LinkedList<T> implements List<T> {
 
         }
         return newList;
+    }
+
+    public class LinkedListStream {
+
+        LinkedList<T> linkedList;
+
+        public LinkedListStream(LinkedList<T> linkedList) {
+            this.linkedList = linkedList;
+        }
+
+
+        LinkedListStream map(Function<T, T> function) {
+
+            for (Node node = head; node != tail.next; node = node.next) {
+                node.value = function.apply(node.value);
+            }
+            return this;
+        }
+
+        LinkedListStream filter(Predicate<T> predicate) {
+            for (Node node = head; node != tail.next; node = node.next) {
+                if (!predicate.test(node.value))
+                    remove(node.value);
+            }
+
+            return this;
+        }
+
+        LinkedListStream sorted(Comparator<T> comparator) {
+            ArrayList<T> arrayList = new ArrayList<>();
+            for (Node node = head; node != tail.next; node = node.next)
+                arrayList.add(node.value);
+            arrayList.sort(comparator);
+            int i = 0;
+            for (Node node = head; node != tail.next; node = node.next) {
+                node.value = arrayList.get(i);
+                i++;
+            }
+            return this;
+        }
     }
 
 }

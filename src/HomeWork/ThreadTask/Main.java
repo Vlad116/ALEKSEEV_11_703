@@ -6,10 +6,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    private static Random random;
-    private static Scanner scanner;
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws InterruptedException {
+        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Размер массива");
 
@@ -18,7 +19,7 @@ public class Main {
         System.out.println("Введите кол-во потоков");
 
         int k = scanner.nextInt(),
-                data[] = new int[n], summ;
+                data[] = new int[n], sumByThread = 0, sumByFor = 0;
 
         for (int i = 0; i < data.length; i++) {
             data[i] = random.nextInt(1000);
@@ -26,9 +27,20 @@ public class Main {
 
         ThreadSummator[] threads = new ThreadSummator[k];
 
+        for (int number : data) {
+            sumByFor += number;
+        }
+
         for (int i = 0; i < threads.length; i++) {
             threads[i] = new ThreadSummator((n / k) * i, (n / k) * (i + 1), data);
+            threads[i].start();
+            threads[i].join();
+            sumByThread += threads[i].getSum();
         }
+
+        System.out.println("Сумма посчитанная циклом: " + sumByFor);
+
+        System.out.println("Сумма посчитанная потоком: " + sumByThread);
 
     }
 }

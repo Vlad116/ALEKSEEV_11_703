@@ -16,8 +16,6 @@ public class Main {
         System.out.println();
         tree.printByLevels();
         tree.remove(6);
-        //tree.remove(6);
-        //tree.remove(12);
         System.out.println();
         tree.printByLevels();
 //	    TreeNode a = new TreeNode(6);
