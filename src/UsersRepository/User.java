@@ -47,4 +47,11 @@ public class User implements Serializable {
     public void setSecondName(String secondName) {
         this.secondName = secondName;
     }
+
+    @Override
+    public String toString() {
+        return "User" + " login: " + login + '\n' +
+                "First Name: " + firstName + '\n' +
+                "Second Name: " + secondName + '\n';
+    }
 }
