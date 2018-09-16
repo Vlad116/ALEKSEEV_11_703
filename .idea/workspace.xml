@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="128c1574-2ccf-49f1-b5bc-a475db3ebbac" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeasurementData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/MeasurementData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/cars.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfsInputData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/dfsInputData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputData" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/inputData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputDataReport" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/inputDataReport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputTreeData" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/inputTreeData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputTreeData1" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/inputTreeData1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputTreeData2" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/inputTreeData2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputTreeData3" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/inputTreeData3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/members" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.dat" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/people.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleList/CircleList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleList/CircleListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleList/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleList/Participant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Alg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Compiler/Compiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Compiler/CompilerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Compiler/InitializeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Compiler/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Compiler/SyntaxException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Compiler/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Motorist/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Motorist/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Motorist/MotoristDataAnalazy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/Motorist/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DfsTask/DFSTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DfsTask/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamTask/CyborgAvatarCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamTask/Task1/Comparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamTask/Task1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamTask/Task2/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamTask/Task2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/BigInteger/BigInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/BigInteger/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Sniper/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Sniper/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Sniper/Shot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Sniper/Sniper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/ThreadTask/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/ThreadTask/ThreadSummator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeeAlgorithm/AlgorithmLee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/Collection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maps/HashMapImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maps/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maps/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OptimizationOfTheTree/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OptimizationOfTheTree/TreeBalancer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OptimizationOfTheTree/TreeBalancerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoogeSortAlgorithm/InputFileCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoogeSortAlgorithm/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoogeSortAlgorithm/StoogeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/IsUpperPredicateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/OutConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/StringLengthFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/StringsAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BinarySearchTreeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersRepository/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersRepository/TestSeriaziable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersRepository/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersRepository/UsersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersRepository/UsersRepositoryObjectsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersRepository/UsersRepositoryWriterReaderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/englishtext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/in4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/input8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/out4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice1/FlyingSnake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice1/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice1/Snake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice1/SpeakingSnake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice13/Army.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice13/ArmyUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice13/Commander.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice13/Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice13/Legion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice13/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice13/Solider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice2/Fist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice2/Gun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice2/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice2/Knife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/patterns/practice2/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice15/Comparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice15/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice21/ComparatorByMaxSubsequenceInLetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice21/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice4/ComparatorOfLetters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice8/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/practice8/MapCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/textanalyze/CharactersMapCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/textanalyze/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/textanalyze/WordsMapCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userRepository.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/userRepository.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userRepositoryData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/userRepositoryData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usersRepositorySerializable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FreshmanYear/usersRepositorySerializable.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ALEKSEEV_11_703$Main__3_.coverage" NAME="Main (3) Coverage Results" MODIFIED="1524688556674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ClassWork.Motorist.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ALEKSEEV_11_703$Main.coverage" NAME="Main Coverage Results" MODIFIED="1521022278718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>StoogeSortAlgorithm.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compa</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Streams/OutConsumer.java" />
+        <option value="$PROJECT_DIR$/src/Streams/StringLengthFunction.java" />
+        <option value="$PROJECT_DIR$/src/Streams/StringAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/Stream/Main.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/ThreadTask/Summator.java" />
+        <option value="$PROJECT_DIR$/src/Competetion/Main.java" />
+        <option value="$PROJECT_DIR$/src/Competetion/MyScanner.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/ThreadTask/ThreadSummator.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/ThreadTask/Main.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Main.java" />
+        <option value="$PROJECT_DIR$/src/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/UsersRepository.java" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/UsersRepository.java" />
+        <option value="$PROJECT_DIR$/src/Example.java" />
+        <option value="$PROJECT_DIR$/src/ClassWork/Motorist/Car.java" />
+        <option value="$PROJECT_DIR$/src/ClassWork/Motorist/User.java" />
+        <option value="$PROJECT_DIR$/src/Maps/HashMapImpl.java" />
+        <option value="$PROJECT_DIR$/car.txt" />
+        <option value="$PROJECT_DIR$/src/Lists/LinkedListStream.java" />
+        <option value="$PROJECT_DIR$/src/ClassWork/Motorist/Main.java" />
+        <option value="$PROJECT_DIR$/src/ClassWork/Motorist/MotoristDataAnalazy.java" />
+        <option value="$PROJECT_DIR$/src/Lists/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lists/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/UsersRepositoryReader.java" />
+        <option value="$PROJECT_DIR$/users.txt" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/InputStreamImpl.java" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/InputOutputStreamImpl.java" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/UsersRepositoryStreamImpl.java" />
+        <option value="$PROJECT_DIR$/of" />
+        <option value="$PROJECT_DIR$/userRepositoryData.txt" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/User.java" />
+        <option value="$PROJECT_DIR$/src/TaskJCommander.java" />
+        <option value="$PROJECT_DIR$/userRepository.txt" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/Main.java" />
+        <option value="$PROJECT_DIR$/src/TaskJCommander/Main.java" />
+        <option value="$PROJECT_DIR$/usersRepositorySerializable.txt" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/UsersRepositoryWriterReaderImpl.java" />
+        <option value="$PROJECT_DIR$/src/DfsTask/DfsTask.java" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/TestSeriaziable.java" />
+        <option value="$PROJECT_DIR$/src/UsersRepository/UsersRepositoryObjectsImpl.java" />
+        <option value="$PROJECT_DIR$/dfsInputData.txt" />
+        <option value="$PROJECT_DIR$/src/DfsTask/Main.java" />
+        <option value="$PROJECT_DIR$/src/DfsTask/DFSTask.java" />
+        <option value="$PROJECT_DIR$/src/practice/practice4/ComparatorOfLetters.java" />
+        <option value="$PROJECT_DIR$/src/ExamTask/Task1/Main.java" />
+        <option value="$PROJECT_DIR$/src/ExamTask/Task1/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/ExamTask/Task2/Main.java" />
+        <option value="$PROJECT_DIR$/src/ExamTask/Task2/Hero.java" />
+        <option value="$PROJECT_DIR$/Example.html" />
+        <option value="$PROJECT_DIR$/sportbox.html" />
+        <option value="$PROJECT_DIR$/src/Bootstrap/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="175" />
+    <option name="y" value="78" />
+    <option name="width" value="957" />
+    <option name="height" value="683" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LossyEncoding</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ALEKSEEV_11_703" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALEKSEEV_11_703" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\FreshmanYear" />
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703" />
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\src" />
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\HomeWork\src" />
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\archive\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="HomeWork.BigInteger" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\FreshmanYear" />
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\src\practice" />
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\src\Maps" />
+      <recent name="C:\Users\Nadin\Desktop\ALEKSEEV_11_703\src\Archive" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example" />
+      <module name="ALEKSEEV_11_703" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.Main" />
+      <module name="ALEKSEEV_11_703" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UsersRepository.Main" />
+      <module name="ALEKSEEV_11_703" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UsersRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task1.Main" />
+      <module name="ALEKSEEV_11_703" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestSeriaziable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UsersRepository.TestSeriaziable" />
+      <module name="ALEKSEEV_11_703" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UsersRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestSeriaziable" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Example" />
+      <item itemvalue="Application.Main (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TestSeriaziable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="128c1574-2ccf-49f1-b5bc-a475db3ebbac" name="Default" comment="" />
+      <created>1520448957718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520448957718</updated>
+      <workItem from="1529642698920" duration="226000" />
+      <workItem from="1530094554473" duration="1050000" />
+      <workItem from="1530264110456" duration="461000" />
+      <workItem from="1530550692026" duration="101000" />
+      <workItem from="1530975588609" duration="5516000" />
+      <workItem from="1531199566248" duration="91000" />
+      <workItem from="1535959527942" duration="2821000" />
+      <workItem from="1536152879423" duration="909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CompilerTest_testProcessOnBad - 2018.03.28 at 14h 59m 17s.xml">
+      <configuration name="CompilerTest.testProcessOnBad" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 07h 24m 41s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 07h 24m 48s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 07h 28m 14s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 11h 05m 14s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 11h 06m 16s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 11h 09m 47s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 11h 17m 46s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest - 2018.04.12 at 11h 19m 46s.xml">
+      <configuration name="TreeBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBalancerTest_testOnDoNotAddTreeData - 2018.04.12 at 07h 26m 03s.xml">
+      <configuration name="TreeBalancerTest.testOnDoNotAddTreeData" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11175000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51098096" side_tool="true" weight="0.27086616" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48901904" weight="0.6037736" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36220473" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4941435" weight="0.32755905" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32755905" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48901904" weight="0.6037736" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36220473" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51098096" side_tool="true" weight="0.27086616" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32755905" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4941435" weight="0.32755905" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.329429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2656748" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="212" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FreshmanYear/users.txt" />
+    <entry file="file://$PROJECT_DIR$/src/TaskJCommander.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1849">
+          <caret line="193" column="11" selection-start-line="193" selection-start-column="11" selection-end-line="193" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Archive/Automat/SitdikovHW/isGoodWordBySwitch.java" />
+    <entry file="file://$PROJECT_DIR$/src/Archive/EX8С.java" />
+    <entry file="file://$PROJECT_DIR$/src/UsersRepository/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/TaskJCommander/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/EOFException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JCommanderExample/src/main/java/ru/itis/Main.java" />
+    <entry file="file://$PROJECT_DIR$/JCommanderExample/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/UsersRepository/UsersRepositoryWriterReaderImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/Sniper/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="856" selection-start-line="856" selection-end-line="856" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="428" selection-start-line="428" selection-end-line="428" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FreshmanYear/userRepository.txt" />
+    <entry file="file://$PROJECT_DIR$/FreshmanYear/userRepositoryData.txt" />
+    <entry file="file://$PROJECT_DIR$/CompetetionFile" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="524" selection-start-line="524" selection-end-line="524" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UsersRepository/TestSeriaziable.java" />
+    <entry file="file://$PROJECT_DIR$/src/UsersRepository/UsersRepositoryObjectsImpl.java" />
+    <entry file="file://$PROJECT_DIR$/FreshmanYear/usersRepositorySerializable.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DfsTask/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/DfsTask/DFSTask.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/patterns/practice2/Hero.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/patterns/practice2/Knife.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/patterns/practice1/FlyingSnake.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/textanalyze/CharactersMapCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/patterns/practice13/Legion.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/textanalyze/WordsMapCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/patterns/practice13/Commander.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/patterns/practice1/Hero.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/textanalyze/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/practice4/ComparatorOfLetters.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice/englishtext.txt" />
+    <entry file="file://$PROJECT_DIR$/src/CircleList/CircleListTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/ExamTask/Task1/Comparator.java" />
+    <entry file="file://$PROJECT_DIR$/src/ExamTask/Task2/Hero.java" />
+    <entry file="file://$PROJECT_DIR$/src/ExamTask/Task1/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/ExamTask/Task2/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/UsersRepository/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Example.java" />
+    <entry file="file://$PROJECT_DIR$/FreshmanYear/dfsInputData.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sportbox.html" />
+    <entry file="file://$PROJECT_DIR$/src/Bootstrap/README.md" />
+    <entry file="file://$PROJECT_DIR$/Example.html" />
+    <entry file="file://$PROJECT_DIR$/src/Bootstrap/index.html" />
+    <entry file="file://$PROJECT_DIR$/FreshmanYear/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FreshmanYear/Maps/Map.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ALEKSEEV_11_703</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+package Lists;
+
+import java.util.Iterator;
+
+/**
+ * 15.02.2018
+ * List
+ *
+ * @author Sidikov Marsel (First Software Engineering Platform)
+ * @version v1.0
+ */
+public interface List<T> extends Collection<T>, Iterable<T> {
+    int indexOf(T element);
+    T get(int index);
+}
